@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+header {
+  background-color: #40464f;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+
+.call {
+  width: 200px;
+  height: 68px;
+  background-color: #40464f;
+  border-color: #e1b168;
+  color: white;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.brand_logo {
+  width: 300px;
+  height: 150px;
+}
+
+.btn {
+  margin-left: 190px;
+}
+
+.cart_logo {
+  width: 30px;
+  height: 28px;
+  padding-top: 50px;
+}
+
+.reserve {
+  width: 232px;
+  height: 68px;
+  background-color: #e1b168;
+  color: #292e36;
+  border-color: #e1b168;
+  margin-left: 100px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+}
+
+hr {
+  border-color: #5c6168;
+}
+.menu .links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+/* header .logo .menu .social_media {
+  
+} */
+
+.social_media {
+  margin-left: auto; /* Move the social media icons to the right */
+  padding-right: 40px; /* Add padding from the right */
+}
+
+/* now starting with the banner */
+
+.banner {
+  background-color: #40464f;
+}
+
+.banner .content {
+  margin-top: 188px;
+  margin-left: 80px;
+}
+
+.banner .content .welcome_msg {
+  color: white;
+  font-family: "Cormorant Infant", serif;
+  font-size: 100px;
+  font-style: bold;
+}
+
+.banner .some_txt {
+  margin-top: 32;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  color: white;
+  line-height: 1.6;
+}
+
+.banner_btn {
+  font-family: "Josefin Sans", sans-serif;
+  width: 232px;
+  height: 68px;
+  color: white;
+  background-color: #292e36;
+  border-color: transparent;
+  margin-top: 45px;
+  border-color: #e1b168;
+}
+
+.image {
+  float: right;
+  width: 700px;
+  height: 700px;
+  margin-left: 200px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  background-color: #FFF8F5;
+}
+
+.contact {
+  width: 1000px;
+  height: 60px;
+  display: block;
+  margin-left: 200px;
+  /* margin-top: 300px; */
+  padding-top: 300px;
+}
+
+.story {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.story img {
+  width: 700px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.st{
+  font-family: "Cormorant Infant", serif;
+  font-size: 40px;
+  color: #292E36;
+  /* font-style: bold; */
+}
+.st_cnt{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  width: 600px;
+  font-style: normal;
+  color: #555555;
+  margin-top: 20px;
+}
+
+.content_about{
+  margin-left: 50px;
+}
